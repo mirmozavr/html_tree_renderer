@@ -1,0 +1,15 @@
+{% extends 'tree/base.html' %}
+
+{% block head %}
+<title>HOME PAGE</title>
+{% endblock %}
+
+{% block body %}
+
+<ol>
+    {% for menu in menu_list %}
+    <li><a href="{% url 'tree_url' menu %} "> {{ menu }}</a></li>
+    {% endfor %}
+</ol>
+
+{% endblock %}

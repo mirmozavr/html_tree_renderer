@@ -1,0 +1,15 @@
+{% extends 'tree/base.html' %}
+
+{% block head %}
+<title>{{ menu_name|upper }}</title>
+{% endblock %}
+
+{% block body %}
+
+{% load draw_menu %}
+
+<p><b>{{ menu_name }}</b></p>
+
+<p>{% draw_menu menu_name %}</p>
+
+{% endblock %}
