@@ -1,6 +1,6 @@
 # Tree Renderer
 
-Django app to render tree menus
+Django app to render tree menues
 
 ### HOWTO
 
